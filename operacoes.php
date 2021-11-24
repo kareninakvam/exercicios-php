@@ -1,10 +1,6 @@
 <?php
 
-/* Soma : 1
-   Multiplicação : 2
-   Divisão: 3
-   Subtração : 4
-*/
+
  
 $valorDigitado1 = filter_input(INPUT_POST, "txtNumero1");
 $valorDigitado2 = filter_input(INPUT_POST, "txtNumero2");
@@ -12,6 +8,7 @@ $opera = filter_input(INPUT_POST, "operacao");
 $resultado = 0;
 
 if($valorDigitado1  && $valorDigitado2){
+	
 	switch ($opera) {
 	case '1':
 		$resultado = ($valorDigitado1 + $valorDigitado2);
