@@ -1,6 +1,9 @@
 <?php
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 437d050d620a2381540689ae7dbfb4a58e0c90cb
  
 $valorDigitado1 = filter_input(INPUT_POST, "txtNumero1");
 $valorDigitado2 = filter_input(INPUT_POST, "txtNumero2");
