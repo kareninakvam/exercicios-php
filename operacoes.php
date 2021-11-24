@@ -1,10 +1,5 @@
 <?php
 
-/* Soma : 1
-   Multiplicação : 2
-   Divisão: 3
-   Subtração : 4
-*/
  
 $valorDigitado1 = filter_input(INPUT_POST, "txtNumero1");
 $valorDigitado2 = filter_input(INPUT_POST, "txtNumero2");
